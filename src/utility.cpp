@@ -105,7 +105,7 @@ using std::ofstream;
 #  include <windows.h>
 #endif
 
-#include "boost/dynamic_bitset/detail/lowest_bit.hpp"
+#include <boost/dynamic_bitset/detail/lowest_bit.hpp>
 using boost::detail::lowest_bit;
 
 

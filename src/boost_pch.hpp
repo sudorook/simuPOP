@@ -42,7 +42,7 @@
 #include <boost/serialization/split_member.hpp>
 #include <boost/serialization/split_free.hpp>
 
-#include "boost/tuple/tuple.hpp"
+#include <boost/tuple/tuple.hpp>
 #include <boost/numeric/ublas/matrix.hpp>
 
 #include <boost/archive/text_iarchive.hpp>
@@ -54,7 +54,7 @@
 #include <boost/serialization/split_free.hpp>
 #include <boost/serialization/version.hpp>
 
-#include "boost/lambda/lambda.hpp"
+#include <boost/lambda/lambda.hpp>
 
 #include <boost/numeric/ublas/lu.hpp>
 #include <boost/numeric/ublas/io.hpp>
@@ -63,9 +63,9 @@
 #include <boost/iostreams/filter/gzip.hpp>
 #include <boost/iostreams/device/file.hpp>
 
-#include "boost/lexical_cast.hpp"
-#include "boost/dynamic_bitset/detail/lowest_bit.hpp"
+#include <boost/lexical_cast.hpp>
+#include <boost/dynamic_bitset/detail/lowest_bit.hpp>
 
-#include "boost/regex.hpp"
+#include <boost/regex.hpp>
 
 #endif
